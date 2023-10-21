@@ -2,6 +2,12 @@
 
 This script takes in an URL and returns the phone numbers found on the website as well as the logo of the website(company, institution...).
 
+## Running
+
+Run "extract.py" imputing the url of the page to be scraped.
+
+Example: "python3 extract.py https://illion.com.au"
+
 ## Limitations
 
 - Should be tested on large number of cases to check if heuristic to identify phone numbers and find logos is complete
